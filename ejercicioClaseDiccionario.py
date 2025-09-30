@@ -25,6 +25,7 @@ for juego in videojuegos:
 media = totalV / cantidad
 print("La valoración media es:", media)
 
-#conseguir una lista con todos los nombres y otra con todas las valoraciones
+#conseguir una lista con todos los nombres y otra con todas las valoraciones, calcular la media con 
+#la nueva lista de valoraciones. Realizar las listas en una sola línea de código.
     
 
