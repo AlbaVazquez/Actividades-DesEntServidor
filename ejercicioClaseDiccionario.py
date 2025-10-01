@@ -27,5 +27,12 @@ print("La valoración media es:", media)
 
 #conseguir una lista con todos los nombres y otra con todas las valoraciones, calcular la media con 
 #la nueva lista de valoraciones. Realizar las listas en una sola línea de código.
-    
+listaNombres = [juego["nombre"] for juego in videojuegos]
+listaValoraciones = [juego["valoracion"] for juego in videojuegos]
+media2 = sum(listaValoraciones) / len(listaValoraciones)
+
+print("Lista de nombres:", listaNombres)
+print("Lista de valoraciones:", listaValoraciones)
+print("La valoración media calculada con las nuevas listas es:", media2)
+
 
