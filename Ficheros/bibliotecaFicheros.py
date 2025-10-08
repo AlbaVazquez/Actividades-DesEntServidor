@@ -71,6 +71,13 @@ def cargar_biblioteca(nombre_fichero):
     with open(nombre_fichero, 'r') as fichero:
         biblioteca = json.load(fichero)
     return biblioteca
+    
+def exportar_resumen(biblioteca, nombre_fichero):
+    # Exporta un resumen de la biblioteca a un fichero de texto
+    with open(nombre_fichero, 'w') as fichero:
+        for libro in biblioteca:
+            totalPrestamos = sum(libro["prestamos"].values())
+            fichero.write(f"Título: {libro['titulo']}  |  Autor: {libro['autor']}  |  Préstamos: {totalPrestamos}\n")
     pass
 
 
@@ -145,6 +152,10 @@ def main():
     print("\n---- ACTIVIDAD 8 ---")
     biblioteca_cargada = cargar_biblioteca("biblioteca.json")
     print(biblioteca_cargada)
+    # 9. Exportar resumen a fichero de texto
+    print("\n---- ACTIVIDAD 9 ---")
+    exportar_resumen(biblioteca, "resumen_biblioteca.txt")
+    print("Resumen exportado a 'resumen_biblioteca.txt'")
 
 
 # Ejecutar programa

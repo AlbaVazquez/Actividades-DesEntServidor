@@ -1,0 +1,5 @@
+Título: Cien años de soledad  |  Autor: Gabriel García Márquez  |  Préstamos: 1
+Título: El Quijote  |  Autor: Miguel de Cervantes  |  Préstamos: 0
+Título: El diario de Anne Frank  |  Autor: Anne Frank  |  Préstamos: 0
+Título: El libro más malo del mundo  |  Autor: Amador Rivas  |  Préstamos: 0
+Título: Un libro genérico  |  Autor: Alguien  |  Préstamos: 0
