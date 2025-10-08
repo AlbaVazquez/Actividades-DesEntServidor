@@ -1,14 +1,28 @@
 #Crear una función que utilice args, y otra con kwargs
 
-def funcion_args(*args):
+def funcion_args(n,*args):
+    # resultado = n
+    # for arg in args:
+    #     resultado += arg
+    # return resultado
+    
+    mayorN = n
     for arg in args:
-        print(arg)
+        if (arg > mayorN):
+            mayorN = arg
+            
+    resultado = print("El parámetro más grande es", mayorN)
+    return resultado
         
-def funcion_kwargs(**kwargs):
+def funcion_kwargs(nombre = "alba", **kwargs):
+    persona = [nombre]
     for key, value in kwargs.items():
-        print(f"{key}: {value}")
+        persona.append(f"{key}: {value}")
+    return persona
         
 #Llamada a las funciones
-funcion_args(1, 2, 3, 'cuatro', 'cinco')
+print(funcion_args(1, 7, 3))
+
 print("-----")
-funcion_kwargs(nombre="Juan", edad=30, ciudad="Madrid")
+
+print(funcion_kwargs(edad=19, ciudad="Dos Hermanas"))
