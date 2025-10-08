@@ -1,5 +1,3 @@
-#Crear una función que utilice args, y otra con kwargs
-
 def funcion_args(n,*args):
     # resultado = n
     # for arg in args:
