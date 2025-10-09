@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "raza": "Sirio (Dorado)",
+    "nombre_cientifico": "Mesocricetus auratus",
+    "tamano_cm": 15,
+    "esperanza_vida_anos": 2.5,
+    "temperamento": "Solitario, territorial, tranquilo.",
+    "habitat_min_cm2": 4500,
+    "apto_principiantes": true,
+    "tipo_social": "Solitario"
+  },
+  {
+    "id": 2,
+    "raza": "Enano Ruso Campbell",
+    "nombre_cientifico": "Phodopus campbelli",
+    "tamano_cm": 10,
+    "esperanza_vida_anos": 1.5,
+    "temperamento": "Activo, propenso a morder si se siente amenazado.",
+    "habitat_min_cm2": 3000,
+    "apto_principiantes": false,
+    "tipo_social": "Pareja o Grupo (complejo)"
+  },
+  {
+    "id": 3,
+    "raza": "Enano Ruso Winter White",
+    "nombre_cientifico": "Phodopus sungorus",
+    "tamano_cm": 9,
+    "esperanza_vida_anos": 2.0,
+    "temperamento": "Generalmente dócil, puede volverse blanco en invierno.",
+    "habitat_min_cm2": 3000,
+    "apto_principiantes": true,
+    "tipo_social": "Pareja o Solitario"
+  },
+  {
+    "id": 4,
+    "raza": "Roborovski (Robo)",
+    "nombre_cientifico": "Phodopus roborovskii",
+    "tamano_cm": 7,
+    "esperanza_vida_anos": 3.0,
+    "temperamento": "Extremadamente rápido, tímido, difícil de manipular.",
+    "habitat_min_cm2": 3500,
+    "apto_principiantes": false,
+    "tipo_social": "Grupo (muy social)"
+  },
+  {
+    "id": 5,
+    "raza": "Chino",
+    "nombre_cientifico": "Cricetulus griseus",
+    "tamano_cm": 12,
+    "esperanza_vida_anos": 2.0,
+    "temperamento": "Tranquilo, dócil, con un cuerpo más alargado.",
+    "habitat_min_cm2": 3500,
+    "apto_principiantes": true,
+    "tipo_social": "Solitario"
+  }
+]
