@@ -2,7 +2,7 @@ import requests #Librería para hacer solicitudes HTTP
 import pandas #Librería para manipulación de datos
 import json
 
-json_url = "https://raw.githubusercontent.com/AlbaVazquez/Ejercicios-AlbaVazquezGuillen/main/hamsters.json"
+json_url = "https://raw.githubusercontent.com/AlbaVazquez/Actividades-DesEntServidor/main/hamsters.json"
 
 def cargar_datos_hamsters():
     
