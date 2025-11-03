@@ -54,8 +54,10 @@ class GestorTareas():
         return f"{self.listaTareas}"
     
     def agregar_tarea(self, Tarea):
-        if Tarea not in self.listaTareas:
-            self.listaTareas.append(Tarea)
+        for t in self.listaTareas:
+            if t.titulo == Tarea.titulo:
+                return
+        self.listaTareas.append(Tarea)
     
     def eliminar_tarea(self, Tarea):
         if Tarea in self.listaTareas:

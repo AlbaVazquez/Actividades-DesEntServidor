@@ -19,47 +19,5 @@
         "prioridad": "Alta",
         "fecha_vencimiento": "4-11-2025",
         "completada": false
-    },
-    {
-        "titulo": "Actividad 1",
-        "descripcion": "actividad de Despliegue de APWeb",
-        "prioridad": "Baja",
-        "fecha_vencimiento": "16-11-2025",
-        "completada": false
-    },
-    {
-        "titulo": "Actividad 2",
-        "descripcion": "actividad de DesEntCLiente",
-        "prioridad": "Media",
-        "fecha_vencimiento": "30-11-2025",
-        "completada": false
-    },
-    {
-        "titulo": "Actividad 3",
-        "descripcion": "actividad de DesEntServidor",
-        "prioridad": "Alta",
-        "fecha_vencimiento": "4-11-2025",
-        "completada": false
-    },
-    {
-        "titulo": "Actividad 1",
-        "descripcion": "actividad de Despliegue de APWeb",
-        "prioridad": "Baja",
-        "fecha_vencimiento": "16-11-2025",
-        "completada": false
-    },
-    {
-        "titulo": "Actividad 2",
-        "descripcion": "actividad de DesEntCLiente",
-        "prioridad": "Media",
-        "fecha_vencimiento": "30-11-2025",
-        "completada": false
-    },
-    {
-        "titulo": "Actividad 3",
-        "descripcion": "actividad de DesEntServidor",
-        "prioridad": "Alta",
-        "fecha_vencimiento": "4-11-2025",
-        "completada": false
     }
 ]
