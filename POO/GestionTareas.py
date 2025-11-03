@@ -44,8 +44,8 @@ class Tarea():
     
     def mostrar_informacion(self):
         print(self)
-    
-    
+
+
 class GestorTareas():
     def __init__(self):
         self.listaTareas = []
@@ -110,7 +110,7 @@ class GestorTareas():
             self.listaTareas = []
         
         return self.listaTareas
-    
+
 # CREACIÓN DE OBJETOS ---------------------
 gestor1 = GestorTareas()
 tareas = gestor1.cargar_tareas()
