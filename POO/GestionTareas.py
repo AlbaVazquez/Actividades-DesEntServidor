@@ -123,6 +123,8 @@ gestor1.agregar_tarea(tarea1)
 gestor1.agregar_tarea(tarea2)
 gestor1.agregar_tarea(tarea3)
 
+gestor1.listar_tareas()
+
 gestor1.guardar_tareas()
 
-gestor1.listar_tareas()
+
